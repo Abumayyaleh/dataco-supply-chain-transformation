@@ -1,0 +1,49 @@
+# Source data and local query exports
+*.csv
+*.tsv
+*.parquet
+*.pbix
+*.pbit
+
+# Credentials and environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.pgpass
+pgpass.conf
+credentials*
+secrets*
+
+# Database artifacts
+*.dump
+*.backup
+*.sql.gz
+*.sqlite*
+pgdata/
+dumps/
+
+# Temporary files and caches
+work/
+tmp/
+temp/
+*.tmp
+*.temp
+*.log
+*.bak
+*~
+__pycache__/
+.cache/
+.venv/
+node_modules/
+
+# Operating systems and editors
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.idea/
+.vscode/
+*.swp
+*.swo
